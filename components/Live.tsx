@@ -100,7 +100,6 @@ const Live = () => {
 			}
 		};
 		const onKeyDown = (e: KeyboardEvent) => {
-			console.log(currentModeSelection);
 			if (e.key === "/" && currentModeSelection !== CursorMode.Chat) {
 				e.preventDefault();
 			}
